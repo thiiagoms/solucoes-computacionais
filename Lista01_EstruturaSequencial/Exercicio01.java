@@ -2,10 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio01 {
 
-	/*
-	 * 	Leia três números inteiros e imprima a 
-	 * 	média aritmética entre esses números. 
-	 */
+	
 	public static void main(String[] args)
 	{
 		int numeroUm, numeroDois, numeroTres, media = 0;
@@ -22,6 +19,8 @@ public class Exercicio01 {
 
 		media = (numeroUm + numeroDois + numeroTres) / 3;
 		
-		System.out.print("Media: " + media);
+		System.out.println("Media: " + media);
+
+		entrada.close();
 	}
 }
